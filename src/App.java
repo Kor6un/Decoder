@@ -30,7 +30,6 @@ public class App extends JFrame{
         decoder = new JButton("Расшифровать");
         decoder.addActionListener(new DecoderActionListener());
 
-        //add(inOut);
         add(scrollPane);
         add(encoder);
         add(decoder);
